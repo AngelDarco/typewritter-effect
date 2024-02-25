@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "main": "src/typeWritter.js",
+  "types": "src/types.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -10,6 +12,8 @@
   },
   "devDependencies": {
     "typescript": "^5.2.2",
-    "vite": "^5.1.4"
+    "vite": "^5.1.4",
+    "vite-plugin-css-injected-by-js": "^3.4.0",
+    "vite-plugin-dts": "^3.7.3"
   }
 }
