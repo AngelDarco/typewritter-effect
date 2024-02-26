@@ -2,7 +2,6 @@ import { TypeWritter } from "./types";
 import eraser from "./eraser";
 
 export default function write(props: TypeWritter): Promise<number> {
-  console.log(props.loop);
   const {
     container,
     text,
