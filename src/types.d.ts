@@ -7,7 +7,7 @@ export declare interface TypeWritter {
   eraseTimer?: number;
   writeInterval?: number;
   eraseInterval?: number;
-  styles?: Styles;
+  cursorStyle?: CursorStyle;
 }
 
 declare const typeWritter: (params: TypeWritter) => void;
@@ -18,7 +18,7 @@ export declare type Eraser = {
   eraseTimer?: number;
 };
 
-export declare type Styles = {
+export declare type CursorStyle = {
   color?: string;
   width?: string;
   height?: string;

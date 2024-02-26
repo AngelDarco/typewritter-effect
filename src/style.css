@@ -1,0 +1,27 @@
+.typewritter::after {
+  content: "";
+  display: inline-block;
+  width: var(--typewritter-width, 2px);
+  height: var(--typewritter-height, 20px);
+  background-color: var(--typewritter-color, orangered);
+  margin-left: 0.5rem;
+  animation: blink var(--typewritter-time, 0.5s)
+    var(--typewritter-animation, ease-in-out) infinite;
+
+  border-radius: 10px;
+  box-shadow: 0 0 5px var(--typewritter-shadow, orangered),
+    0 0 10px var(--typewritter-shadow, orangered),
+    0 0 20px var(--typewritter-shadow, orangered);
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
