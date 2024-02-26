@@ -11,9 +11,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "typescript": "^5.2.2",
-    "vite": "^5.1.4",
-    "vite-plugin-css-injected-by-js": "^3.4.0",
-    "vite-plugin-dts": "^3.7.3"
+    "typescript": "5.2.2",
+    "vite": "5.1.4",
+    "vite-plugin-css-injected-by-js": "3.4.0",
+    "vite-plugin-dts": "3.7.3"
   }
 }
